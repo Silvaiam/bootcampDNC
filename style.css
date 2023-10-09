@@ -1,9 +1,13 @@
 body{
     margin: 0px;
     padding: 0px;
+
+    background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%), #303030;
+    background-repeat: no-repeat;
+
 }
 #menunav{
-    width: 100%;
+    width: 99,99%;
     height: 70px;
     border: 1px solid black;
     background-color: #303030;
@@ -55,3 +59,134 @@ a:hover{
     color: black;
 }
 
+section{
+    display:flex;
+    flex-direction:column;
+
+}
+
+#textInfo{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#textInfo h1{
+    color: white;
+    font-family: inter;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+#textInfo h3{
+    color: white;
+    font-family: inter;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+#textInfo span{
+    background-color: #202020;
+    font-weight: bold; 
+    padding: 2px;
+}
+
+input{
+    width: 300px;
+    height: 29px;
+    margin-left: 39%;
+    border-radius: 7px;
+    border: none;
+    display: grid;
+    grid-auto-columns: auto;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+label{
+    color: white;
+    margin-left: 39%;
+    font-family: inter;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#botaologin{
+    background-color: #0C70F2;
+    border: 0px;
+    margin-left: 40%;
+    width: 280px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 7px;
+    color: white;
+    font-family: inter;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 75px;
+}
+
+footer{
+    width: 99,99%;
+    background-color: #0C70F2;
+    font-family: inter;
+
+}
+
+footer .linha1{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.endereço{
+    color: white;
+    font-weight:200;
+    font-size: 12px;
+}
+
+.linha1 h5{
+    background-color: #303030;
+    color: white;
+    width: 90px;
+    line-height: 20px;
+    border-radius: 5px;
+    margin-left: 38%;
+    font-family: inter;
+}
+
+.linha1 h4{
+    background-color: #303030;
+    color: white;
+    width: 120px;
+    line-height: 20px;
+    border-radius: 5px;
+    margin-bottom: 41px;
+    margin-left: 26%;
+    font-family: inter;
+}
+
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    font-family: inter;
+}
+
+.linha2{
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 30px;
+    background-color: #0C70F2;
+} 
+
+.linha2 a{
+    color: white;
+    text-decoration: none;
+}
